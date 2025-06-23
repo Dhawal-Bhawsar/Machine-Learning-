@@ -1,1 +1,68 @@
 
+🧠 ChatGPT Reviews Analysis
+This project analyzes user reviews of ChatGPT to gain insights into user sentiment, behavior, and feedback trends using data visualization and natural language processing (NLP) techniques.
+
+📁 Project Structure
+chatgpt_reviews.csv - Dataset containing user reviews and metadata.
+
+ChatGPT Reviews Analysis.ipynb - Jupyter Notebook with complete EDA, preprocessing, sentiment analysis, and visualization.
+
+🔍 Objective
+To explore and understand ChatGPT user reviews through:
+
+Exploratory Data Analysis (EDA)
+
+Text preprocessing and cleaning
+
+Sentiment analysis using TextBlob and Vader
+
+Word cloud generation and keyword extraction
+
+Visual insights through plots and charts
+
+⚙️ Tools & Technologies
+Python (Pandas, NumPy, Matplotlib, Seaborn)
+
+NLP Libraries: NLTK, TextBlob, VaderSentiment
+
+Visualization: WordCloud, Plotly
+
+Jupyter Notebook for step-by-step analysis
+
+📊 Key Features
+Cleaned and preprocessed real user reviews.
+
+Identified top positive and negative keywords.
+
+Classified reviews into positive, negative, and neutral.
+
+Generated sentiment distribution pie chart.
+
+Created insightful visualizations like word clouds and histograms.
+
+🧪 Sample Insights
+Most reviews are overwhelmingly positive.
+
+Common themes include accuracy, creativity, and limitations in responses.
+
+Negative reviews often cite hallucination or incomplete answers.
+
+🚀 How to Run
+Clone this repository or download the files.
+
+Open ChatGPT Reviews Analysis.ipynb in Jupyter Notebook or VS Code.
+
+Make sure you have the required libraries installed:
+
+bash
+Copy
+Edit
+pip install pandas numpy matplotlib seaborn nltk textblob vaderSentiment wordcloud
+Run all cells to execute the full analysis.
+
+📌 Future Enhancements
+Add advanced sentiment classification using pretrained transformer models (BERT, RoBERTa).
+
+Dashboard integration for interactive review exploration.
+
+Time-based trend analysis of sentiments.
