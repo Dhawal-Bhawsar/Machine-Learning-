@@ -1,4 +1,6 @@
 **📈 Stock Price Prediction using TensorFlow**
+
+
 This project focuses on predicting stock closing prices using deep learning techniques with TensorFlow and LSTM (Long Short-Term Memory) models. It utilizes historical stock price data for multiple companies over a 5-year period to build and train a predictive model.
 
 📁 Files in this Project
